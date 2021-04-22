@@ -108,4 +108,8 @@ public class Test {
 		//reader <<<< i don't see this variable from scope #2
 		
 	}
+	
+	public static void addTax () {
+		// scope number #10
+	}
 }
