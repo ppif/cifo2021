@@ -10,7 +10,7 @@ public class Test {
 		// public double newCientDiscount = 00.00;
 
 	public static void main(String[] args) {
-		
+		//hi
 		Scanner reader = new Scanner (System.in);
 		System.out.println("Tell me your user name:");
 		String userName = reader.nextLine();
