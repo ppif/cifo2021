@@ -12,13 +12,13 @@ public class Test {
 	public static void main(String[] args) {
 		//hi
 		Scanner reader = new Scanner (System.in);
-		System.out.println("Tell me your user name:");
+		System.out.println("Nombre de usuario");
 		String userName = reader.nextLine();
 		
-		System.out.println("Tell me your type of user");
+		System.out.println("Tipo de usuario");
 		String userType = reader.nextLine();
 		
-		System.out.println("Tell me the amount of your buy:");
+		System.out.println("Cuantia de tu compra");
 		int userBuy = reader.nextInt();
 		
 		System.out.println("\nUser:");
