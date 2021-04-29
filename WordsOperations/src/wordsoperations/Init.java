@@ -6,15 +6,15 @@ public class Init {
 	// scope #1
 	public static void main(String[] args) {
 
-		try (// scope #2
-		Scanner reader = new Scanner(System.in)) {
-			System.out.println("Write some string ...");
-			String word = reader.nextLine();
+		// scope #2
+		Scanner reader = new Scanner(System.in);
+		System.out.println("Write some string ...");
+		String word = reader.nextLine();
 
-			Operations.operationsString(word);
-			Editing.subEditing (word);
-			EmailManagment.createAccount(word);
-		}
+		//Operations.operationsString(word);
+		Editing.subEditing (word);
+		//EmailManagment.createAccount(word);
+		
 		System.out.println("\nBye bye my friend...");
 
 	}

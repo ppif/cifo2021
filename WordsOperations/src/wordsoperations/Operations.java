@@ -6,15 +6,15 @@ public class Operations {
 
 	public static void operationsString(String word) {
 		// scope #21
-		//print(word);
-		//linebreak();
-		//printString(word);
-		//printStringH(word);
-		//printStringV(word);
-		//printStringHDash(word);
-		//printStringVOffset(word);
-		//printStringDiagonal(word);
-		//printStringBackWards(word);
+		print(word);
+		linebreak();
+		printString(word);
+		printStringH(word);
+		printStringV(word);
+		printStringHDash(word);
+		printStringVOffset(word);
+		printStringDiagonal(word);
+		printStringBackWards(word);
 
 	}
 	
