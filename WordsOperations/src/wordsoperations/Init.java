@@ -8,7 +8,7 @@ public class Init {
 
 		// scope #2
 		Scanner reader = new Scanner(System.in);
-		System.out.println("Write some string ...");
+		System.out.println("Escribe un mail ...");
 		String word = reader.nextLine();
 
 		//Operations.operationsString(word);
