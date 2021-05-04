@@ -10,7 +10,7 @@ public class Dog {
 	public int weight;
 	
 	
-	//Constructor clase dog
+	//Constructor de la clase dog
 	
 	public Dog(String name, int age, String colour, int weight) {
 		super();
@@ -21,7 +21,7 @@ public class Dog {
 	}
 
 
-	//Metodos clase dog
+	//Metodos de la clase dog
 	
 	public Dog(int i) {
 		// TODO Auto-generated constructor stub

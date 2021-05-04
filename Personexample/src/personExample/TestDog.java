@@ -2,7 +2,9 @@ package personExample;
 
 public class TestDog {
 
-	public static void createAndTestObjectsPerson() {
+	public static void executeDog() {
+		
+		createAndTestObjectsDog();
 		
 		// Crear objeto
 		
@@ -18,6 +20,11 @@ public class TestDog {
 		
 		
 	
+		
+	}
+
+	private static void createAndTestObjectsDog() {
+		// TODO Auto-generated method stub
 		
 	}
 	
