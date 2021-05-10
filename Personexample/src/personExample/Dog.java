@@ -104,6 +104,12 @@ public class Dog {
 	public void setWeight(int weight) {
 		this.weight = weight;
 	}
+
+
+	@Override
+	public String toString() {
+		return "Dog [name=" + name + ", age=" + age + ", colour=" + colour + ", weight=" + weight + "]";
+	}
 	
 
 	

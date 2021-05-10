@@ -22,9 +22,7 @@ public class Init {
 		String email = Utils.fromStringToEmail (account);
 		String password = Utils.fromStringToPassword (account);
 		
-		
 		boolean  isValidated  =  Login.validateAccount (reader, user, password);
-		
 		
 		if (isValidated) {
 			
@@ -34,8 +32,8 @@ public class Init {
 			password = AccountUpdating.updatePasswod(reader, password);
 			
 			
-			//to-do
-			//AccountDeleting
+			//fake deleting ...
+			AccountDeleting.deleteAccount(user, email, password);
 			
 			isValidated = false;
 		}

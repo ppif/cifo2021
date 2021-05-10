@@ -1,5 +1,9 @@
 package personExample;
 
+
+
+import java.util.ArrayList;
+
 public class Person {
 
 	// Fields from Person Class
@@ -8,6 +12,8 @@ public class Person {
 	public int weigth;
 	public int heigth;
 	public double basicSalary;
+	public ArrayList<Expense>expenses;
+	
 
 	// Constructor from Person Class
 	public Person() {
@@ -21,6 +27,8 @@ public class Person {
 		this.weigth = weigth;
 		this.heigth = heigth;
 		this.basicSalary = basicSalary;
+		this.expenses = new ArrayList<Expense>();
+		
 
 	}
 
@@ -37,6 +45,11 @@ public class Person {
 	}
 
 	public double yearNetSalary() {
+
+		
+		
+		
+		
 
 		double yearNetSalary = 0.0;
 
