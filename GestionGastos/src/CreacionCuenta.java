@@ -5,7 +5,7 @@ public class CreacionCuenta {
 		
 		//creamos metodo para crear usuario
 		//creamos metodo para crear contraseña
-		
+		//holaholahola
 		return "cuenta";
 	}
 	
