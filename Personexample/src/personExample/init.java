@@ -11,9 +11,15 @@ public class init {
 		//TestDog.executeDog();
 		TestPants.executePants();
 		CrearCalculoTalla();
+		CrearCalculoRango();
 		
 		//System.out.println("Finalizado");
 		
+		
+	}
+
+	private static void CrearCalculoRango() {
+		// TODO Auto-generated method stub
 		
 	}
 

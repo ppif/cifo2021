@@ -50,7 +50,9 @@ public class TestPants {
 			if (size > 20 && size <50 ) {
 			System.out.println("Your size is S");
 				
-//crear metodo personal		
+			//crear metodo personal		
+			
+	
 			
 			
 			}
